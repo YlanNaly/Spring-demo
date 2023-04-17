@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 @Component
 @AllArgsConstructor
 public abstract class AbstractClass1 {
-  private final ConcreteDependance1 concreteDependance1;
-  private final ConcreteDependance2 concreteDependance2;
+  protected final ConcreteDependance1 concreteDependance1;
+  protected final ConcreteDependance2 concreteDependance2;
 }
